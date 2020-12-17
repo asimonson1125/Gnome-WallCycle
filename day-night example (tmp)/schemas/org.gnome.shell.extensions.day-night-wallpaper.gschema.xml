@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.day-night-wallpaper" path="/org/gnome/shell/extensions/day-night-wallpaper/">
+
+    <key name="day-wallpaper" type="s">
+      <default>''</default>
+      <summary>Day wallpaper</summary>
+      <description>Wallpaper to set at Day time</description>
+    </key>
+
+    <key name="night-wallpaper" type="s">
+      <default>''</default>
+      <summary>Night wallpaper</summary>
+      <description>Wallpaper to set at Night time</description>
+    </key>
+
+    <key name="day-wallpaper-switch-time" type="d">
+      <default>9.00</default>
+      <summary>Day wallpaper switch time</summary>
+      <description>Time at which the day wallpaper is set</description>
+    </key>
+
+    <key name="night-wallpaper-switch-time" type="d">
+      <default>19.00</default>
+      <summary>Night wallpaper switch time</summary>
+      <description>Time at which the night wallpaper is set</description>
+    </key>
+
+  </schema>
+</schemalist>
