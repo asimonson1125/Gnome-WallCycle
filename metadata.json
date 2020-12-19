@@ -1,0 +1,10 @@
+{
+    "name" : "WallCycle",
+    "description" : "Cycles through a folder of wallpapers at a time interval",
+    "shell-version" : [
+        "5.0.17"
+    ],
+    "url" : "https://github.com/asimonson1125/Gnome-WallCycle",
+    "uuid" : "wallcycle@asimonson1125",
+    "version" : 1.0
+}
